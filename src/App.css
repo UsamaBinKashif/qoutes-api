@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar > button {
+  background-color: white;
+  border: 2px solid yellow;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: 500;
+  padding: 0 6px 6px 6px;
+}
+.navbar > button > img {
+  position: relative;
+  top: 18%;
+  width: 1.2rem;
+}
+
+.qouteContainer {
+  width: 300px;
+  font-size: 0.8rem;
+  border-left: 4px solid yellow;
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+.authorContainer {
+  margin-top: 30px;
+}
+.qouteAuthor {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+}
+.qouteGenre {
+  font-size: 0.7rem;
+  margin-top: 5px;
+  font-weight: 500;
+  color: gray;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 0.6rem;
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+footer > h3 > a {
+  text-decoration: none;
+  color: black;
+}
